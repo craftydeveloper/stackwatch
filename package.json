@@ -1,0 +1,11 @@
+{
+  "name": "stackwatch",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A manual inventory of services, API endpoints, and health-check notes; it does not send probes.",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-static-app.mjs"
+  }
+}
